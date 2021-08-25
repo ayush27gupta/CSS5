@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.container {
+    margin: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(115, 255, 0);
+    margin: 10px;
+    background-color: rgb(115, 255, 0);
+}
+
+ol {
+    text-align: left;
+}
+
+.box1 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s;
+}
+
+.box1:hover {
+    width: 250px;
+}
+
+.box2 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s, height 2s;
+}
+
+.box2:hover {
+    width: 250px;
+    height: 250px;
+}
+
+.box3 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+.box3:hover {
+    width: 250px;
+}
+
+.box4 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+
+.box4:hover {
+    width: 250px;
+}
+
+.box5 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.box5:hover {
+    width: 250px;
+}
+
+.box6 {
+    background-color: rgb(115, 255, 0);
+    transition: width 5s;
+}
+
+.box6:hover {
+    width: 250px;
+}
+
+.box7 {
+    background-color: rgb(115, 255, 0);
+    transition: width 2s;
+}
+
+.box7:hover {
+    width: 250px;
+}
+
+.first {
+    display: flex;
+    justify-content: left;
+}
+
+.second {
+    display: flex;
+    justify-content: left;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+    font-size: larger;
+}
+
+.back {
+    margin-bottom: 5px;
+}
