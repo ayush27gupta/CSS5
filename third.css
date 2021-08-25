@@ -38,7 +38,7 @@
 
 .road {
     height: 200px;
-    width: 500%;
+    width: 1000%;
     background-image: url(road.jpg);
     display: block;
     position: absolute;
@@ -47,7 +47,7 @@
     right: 0;
     z-index: 1;
     background-repeat: repeat-x;
-    animation: road 5s linear infinite;
+    animation: road 10s linear infinite;
 }
 
 @keyframes road {
@@ -104,7 +104,7 @@
 }
 
 .wheel {
-    animation: tyre 10ms infinite;
+    animation: tyre 100ms infinite;
 }
 
 @keyframes tyre {
