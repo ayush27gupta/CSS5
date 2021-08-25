@@ -79,12 +79,12 @@ ol {
 
 .box10 {
     background-color: cornflowerblue;
-    animation: box10 5s linear infinite;
+    animation: box10 4s linear infinite;
 }
 
 @keyframes box10 {
     50% {
-        transform: rotate(0deg) scaleY(-1);
+        transform: rotate(0deg) scaleY(0.5);
     }
 }
 
