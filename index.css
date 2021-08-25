@@ -90,12 +90,12 @@ ol {
 
 .box11 {
     background-color: maroon;
-    animation: box11 3s linear infinite;
+    animation: box11 4s linear infinite;
 }
 
 @keyframes box11 {
-    100% {
-        transform: rotate(0deg) scaleX(-1);
+    50% {
+        transform: rotate(0deg) scaleX(0.5);
     }
 }
 
@@ -107,10 +107,10 @@ ol {
 
 @keyframes box12 {
     50% {
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
     100% {
-        transform: rotate(180deg);
+        transform: rotate(-180deg);
     }
 }
 
