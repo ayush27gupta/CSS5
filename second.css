@@ -77,7 +77,8 @@ ol {
 
 .box6 {
     background-color: rgb(115, 255, 0);
-    transition: width 5s;
+    transition: width 2s;
+    transition-timing-function: linear;
 }
 
 .box6:hover {
@@ -87,6 +88,7 @@ ol {
 .box7 {
     background-color: rgb(115, 255, 0);
     transition: width 2s;
+    transition-timing-function: ease;
 }
 
 .box7:hover {
